@@ -15,7 +15,7 @@ function Result ({date,mintemp,maxtemp,condition,icon})  {return(
 
 <li className="resultli">{condition}</li>
 
-<li className="resultli">{mintemp}   &nbsp; &nbsp; &nbsp; &nbsp; {maxtemp}</li>
+<li className="resultli">Min Temp &nbsp;   {mintemp} °C   &nbsp; &nbsp; &nbsp; &nbsp; Max Temp &nbsp; {maxtemp} °C</li>
 
 <li className="resultli"></li>
 </ul>
